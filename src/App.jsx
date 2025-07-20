@@ -17,7 +17,8 @@ function App() {
           ambil di beberapa tempat yang telah saya kunjungi
         </p>
         <div className=" flex items-center sm:gap-4 gap-2">
-          <a href="#" className=" bg-violet-700  p-4 rounded-2xl hover:bg-violet-600 hover:text-black duration-500 sm:hover:scale-110 active:scale-95">Download CV <i className="ri-download-line ri-lg"></i></a>
+          <a href="#kontak" className=" bg-violet-700  p-4 rounded-2xl hover:bg-violet-600 hover:text-black duration-500 sm:hover:scale-110 active:scale-95">Kontak saya < i class="ri-contacts-book-2-fill ri-lg"></i>
+          </a>
           <a href="#proyek" className=" bg-zinc-700  p-4 rounded-2xl hover:bg-zinc-600 hover:text-black duration-500 sm:hover:scale-110 active:scale-95">Lihat Proyek <i className="ri-arrow-down-line ri-lg"></i></a>
         </div>
       </div>
@@ -105,8 +106,8 @@ function App() {
 
     {/* Proyek */}
     <div className="proyek mt-32 py-10" id="proyek">
-      <h1 className="text-center text-4xl font-bold mb-2" data-aos="fade-up" data-aos-duration="1000">Proyek</h1>
-      <p className="text-base text-center opacity-50"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Berikut ini beberapa yang telah saya buat.</p>
+      <h1 className="text-center text-4xl font-bold mb-2" data-aos="fade-up" data-aos-duration="1000">Tutorial</h1>
+      <p className="text-base text-center opacity-50"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Berikut Ini Beberapa Website Yang Bisa Kalian Pelajari.</p>
       <div className="proyek-box mt-14 grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
         {listProyek.map(proyek => (
           <div key={proyek.id} className="p-4 bg-zinc-800 rounded-md" data-aos="fade-up" data-aos-duration="1000" data-aos-delay={proyek.dad}>
@@ -119,9 +120,12 @@ function App() {
                 <p className="py-1 px-3 border border-zinc-500 bg-zinc-600 rounded-md font-semibold" key={index}>{tool}</p>
               ))}
             </div>
+            
+            {proyek.link && (
             <div className="mt-8 text-center">
-            <a href="#" className="bg-violet-700 p-3 rounded-lg block border border-zinc-600 hover:bg-violet-600">Lihat Website</a>
+            <a href={proyek.link} target="_blank" className="bg-violet-700 p-3 rounded-lg block border border-zinc-600 hover:bg-violet-600">Lihat Website</a>
             </div>
+            )}
             </div>
           </div>
         ))}

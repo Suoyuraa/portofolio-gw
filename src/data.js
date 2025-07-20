@@ -14,7 +14,8 @@ import Tools5 from "/assets/tools/bootstrap.png";
 import Tools6 from "/assets/tools/js.png";
 import Tools7 from "/assets/tools/nodejs.png";
 import Tools8 from "/assets/tools/github.png";
-import Tools9 from "/assets/tools/ai.png";
+import Tools9 from "/assets/tools/logoframer.png";
+// import Tools9 from "/assets/tools/ai.png";
 import Tools10 from "/assets/tools/canva.png";
 import Tools11 from "/assets/tools/figma.png";
 
@@ -25,6 +26,7 @@ export const listTools = [
     nama: "Visual Studio Code",
     ket: "Code Editor",
     dad: "100",
+    link: "https://code.visualstudio.com/",
   },
   {
     id: 2,
@@ -32,6 +34,7 @@ export const listTools = [
     nama: "React JS",
     ket: "Framework",
     dad: "200",
+    link: "https://react.dev/",
   },
   {
     id: 3,
@@ -39,6 +42,7 @@ export const listTools = [
     nama: "Next JS",
     ket: "Framework",
     dad: "300",
+    link: "https://nextjs.org/",
   },
   {
     id: 4,
@@ -46,6 +50,7 @@ export const listTools = [
     nama: "Tailwind CSS",
     ket: "Framework",
     dad: "400",
+    link: "https://tailwindcss.com/",
   },
   {
     id: 5,
@@ -53,6 +58,7 @@ export const listTools = [
     nama: "Bootstrap",
     ket: "Framework",
     dad: "500",
+    link: "https://getbootstrap.com/",
   },
   {
     id: 6,
@@ -60,6 +66,7 @@ export const listTools = [
     nama: "Javascript",
     ket: "Language",
     dad: "600",
+    link: "https://www.w3schools.com/js/",
   },
   {
     id: 7,
@@ -67,6 +74,7 @@ export const listTools = [
     nama: "Node JS",
     ket: "Javascript Runtime",
     dad: "700",
+    link: "https://nodejs.org/en",
   },
   {
     id: 8,
@@ -74,13 +82,15 @@ export const listTools = [
     nama: "Github",
     ket: "Repository",
     dad: "800",
+    link: "https://github.com/",
   },
   {
     id: 9,
     gambar: Tools9,
-    nama: "Adobe Illustrator",
+    nama: "Framer",
     ket: "Design App",
     dad: "900",
+    link: "https://www.framer.com/",
   },
   {
     id: 10,
@@ -88,6 +98,7 @@ export const listTools = [
     nama: "Canva",
     ket: "Design App",
     dad: "1000",
+    link: "https://www.canva.com/",
   },
   {
     id: 11,
@@ -95,6 +106,7 @@ export const listTools = [
     nama: "Figma",
     ket: "Design App",
     dad: "1100",
+    link: "https://www.figma.com/",
   },
 ];
 
@@ -113,6 +125,7 @@ export const listProyek = [
     desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
     tools: ["HTML", "CSS", "Javascript", "AOS"],
     dad: "200",
+    link: "https://www.youtube.com/watch?v=RDNwk379Bys",
   },
   {
     id: 2,
@@ -121,6 +134,7 @@ export const listProyek = [
     desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
     tools: ["HTML", "CSS", "Javascript", "AOS", "Swiper", "Lightbox Gallery"],
     dad: "300",
+    link: "https://www.youtube.com/watch?v=EvGEiGpgmQo",
   },
   {
     id: 3,
@@ -129,6 +143,7 @@ export const listProyek = [
     desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
     tools: ["Vite", "ReactJS", "TailwindCSS", "AOS"],
     dad: "400",
+    link: "https://www.youtube.com/watch?v=K049QecRGnE",
   },
   {
     id: 4,
@@ -137,6 +152,7 @@ export const listProyek = [
     desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
     tools: ["Vite", "ReactJS", "Bootstrap", "AOS"],
     dad: "500",
+    link: "https://www.youtube.com/watch?v=b3pfr6DXBYw",
   },
   {
     id: 5,
@@ -145,6 +161,7 @@ export const listProyek = [
     desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
     tools: ["HTML", "CSS", "Javascript", "Bootsrap"],
     dad: "600",
+    link: "https://www.youtube.com/watch?v=rK92ZoMMU7U",
   },
   {
     id: 6,
@@ -153,5 +170,6 @@ export const listProyek = [
     desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
     tools: ["NextJS", "TailwindCSS", "Framermotion"],
     dad: "700",
+    link: "https://www.youtube.com/watch?v=l7KXROuJSdc",
   },
 ];
