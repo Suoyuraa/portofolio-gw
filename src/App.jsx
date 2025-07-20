@@ -4,7 +4,7 @@ import {listTools, listProyek} from "./data";
 function App() {
   return (
     <>
-    <div className="hero grid md:grid-cols-2 items-center pt-10 xl:gap1 gap-6 grid-cols-1">
+    <div id="beranda" className="hero grid md:grid-cols-2 items-center pt-10 xl:gap1 gap-6 grid-cols-1">
       <div className="animate__animated animate__fadeInUp animate__delay-3s">
         <div className="flex items-center gap-3 mb-6 bg-zinc-800 w-fit p-4 rounded-2xl">{/* berubah besar gambar di sini, ini untuk gambar kecil */}
           <img src={DataImage.HeroImage} alt="Hero Image" className="w-10 rounded-md" loading="lazy" />
