@@ -10,7 +10,7 @@ function App() {
           <img src={DataImage.HeroImage} alt="Hero Image" className="w-10 rounded-md" loading="lazy" />
           <q>Kegagalan Adalah Guru Terbaik Dalam Proses.🚀</q> {/* <q> unruk memnuculkan tanda kutip "" */}
         </div>
-        <h1 className=" text-5xl/tight font-bold mb-6">Hi, nama saya Kang Yuna</h1>
+        <h1 className=" text-5xl/tight font-bold mb-6">Hi, nama saya Oshei</h1>
         <p className=" text-base/loose mb-6 opacity-50">
           Saya sangat tertarik di bidang programming dan design, terutara di bidang yang baru saya ketahui seperti, 
           react.js vite.js dan tailwind css selain itu saya juga suka foto,merekam dan mengedit hasil yang saya sudah
